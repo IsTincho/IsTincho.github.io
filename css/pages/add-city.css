@@ -1,0 +1,94 @@
+*{
+    align-items: center;
+    align-content: center;
+}
+
+main h2{
+    margin-bottom: 30px;
+}
+
+.menu{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 300px;
+}
+.menu #agregarCiudad{
+    width: 215px;
+    height: 35px;
+    border-radius: 9px;
+    border:  
+        2px 
+        solid;
+    margin-bottom: 10px;
+}
+.input{
+    padding: 10px 15px;
+    height: 45px;
+    border-style: hidden;
+    border-radius: 10px;
+    background-color: #00594C;
+    color:  white;
+    font-style: bold;
+}
+
+.verde h2{
+    font-size: 60%;
+    color: white;
+    text-align: center;
+}
+.rojo h2{
+    font-size: 60%;
+    color: white;
+    text-align: center;
+}
+.amarillo h2{
+    font-size: 60%;
+    color: white;
+    text-align: center;
+}
+
+.verde{
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color:#28a745;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-bottom: 35px;
+    height: 65px;
+    width: 350px;
+}
+
+.rojo{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #dc3545;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-bottom: 35px;
+    height: 70px;
+    width: 350px;
+}
+
+.amarillo{
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #ffc107;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-bottom: 35px;
+    height: 70px;
+    width: 325px;
+}

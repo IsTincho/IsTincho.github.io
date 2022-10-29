@@ -1,0 +1,101 @@
+.textBox{
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    border-color: #00594C;
+}
+
+#formAyuda form{
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    display: grid;
+    grid-template-columns: 300px;
+}
+
+#formAyuda input[type=text]{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #00594C;
+}
+
+#formAyuda #Email{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #00594C;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.buttons #submit{
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    height: 40px;
+    border-radius: 6px;
+    border-style: hidden;
+    background-color: #00594C;
+    color: white;
+}
+
+.buttons #reset{
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    height: 40px;
+    border-radius: 6px;
+    border-style: hidden;
+    background-color: #00594C;
+    color: white;
+}
+
+.error{
+    display: none;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: #dc3445;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 325px;
+    margin-left: 325px;
+    margin-bottom: 35px;
+}
+
+.error h2{
+    font-size: 70%;
+    color: white;
+    text-align: center;
+}
+
+.correcto{
+    display: none;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: #4adc34;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 325px;
+    margin-left: 325px;
+    margin-bottom: 35px;
+}
+
+.correcto h2{
+    font-size: 70%;
+    color: white;
+    text-align: center;
+}

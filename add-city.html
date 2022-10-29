@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima App</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/pages/add-city.css">
+    <link rel="icon" href="img/mi-icon.png">
+    <script src="js/common.js" defer></script>
+    <script src="js/pages/add-city.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="titulo">
+            <img src="img/mi-icon.png" width="45px" height="36px">
+            <h1>
+                <span>Clima App</span>
+            </h1>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Clima</a></li>
+                <li class="current-page"><a href="add-city.html">Agregar Ciudad</a></li>
+                <li><a href="help.html">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Contenido principal de la página -->
+    <main>
+        <body onload="ocultarAlerts()">
+            <h2>Agregar Ciudad</h2>
+        <form class="menu">
+            <p>
+                <label for="Agregar ciudad">Ingrese la ciudad a agregar: </label>
+                <input type="text" id="agregarCiudad"><br>
+                <button onclick="llamarDatos()" type="button" class="input">Agregar</button> 
+            </p>
+        </form>
+
+                <nav class="verde" id="verde">
+                    <h2>Ciudad agregada con éxito</h2>
+                </nav>
+                
+                <nav class="rojo" id="rojo">
+                    <h2>Error: La ciudad ingresada no se encuentra en la API o se produjo un error al consultar</h2>
+                </nav>
+                
+                <nav class="amarillo" id="amarillo">
+                    <h2>La ciudad ingresada ya se encuentra almacenada</h2>
+                </nav>
+        </body>
+    </main>
+    <footer>
+        <p>
+            Desarrollado con ♥ - LC2
+        </p>
+    </footer>
+
+    <!-- Agrego los JS al Final para que cargue bien la estructura y el css -->
+
+
+
+</body>
+
+</html>
