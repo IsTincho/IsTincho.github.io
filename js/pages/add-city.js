@@ -15,6 +15,7 @@ function mostrarAlertVerde() {
 
 function addCity(){
     let newCity = document.getElementById('agregarCiudad').value;
+    newCity = newCity.toUpperCase();
     let cities = getCitiesFromLocalStorage();
     if (cities.indexOf(newCity)>=0){
         ocultarAlerts();
