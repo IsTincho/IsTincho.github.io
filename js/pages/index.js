@@ -12,12 +12,12 @@ const mostrarDatos= async () => {
             <h2><b>${datos.name} - ${datos.sys.country}</b></h2>
             <h3><img src="http://openweathermap.org/img/wn/${datos.weather[0].icon}@2x.png"</h3>
             <p><b>Temperatura:</b> ${datos.main.temp}ºC</p>
-            <p><b>Sensacion Termica:</b> ${datos.main.feels_like}ºC</p>
+            <p><b>Sensación Térmica:</b> ${datos.main.feels_like}ºC</p>
             <p><b>Temperatura Max:</b> ${datos.main.temp_max}ºC</p>
             <p><b>Temperatura Min:</b> ${datos.main.temp_min}ºC</p>
             <p><b>Humedad:</b> ${datos.main.humidity}%</p>
             <p><b>Velocidad del Viento:</b> ${datos.wind.speed}km/h</p>
-            <p><b>Presion:</b> ${datos.main.pressure}P</p>
+            <p><b>Presión:</b> ${datos.main.pressure}P</p>
             `
             document.getElementById('card').style.display = "block";
         } else {
